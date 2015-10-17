@@ -218,10 +218,14 @@ input:focus ~ .highlight {
 
 .well-text {
   @include clearfix;
-  font-size: 10px;
+  font-size: 12px;
   float: left;
   line-height: 0.7em;
-  width: 80%;
+  width: 82%;
+
+  .title {
+    color: black;
+  }
 
   .deadline {
     color: #969696;
@@ -234,7 +238,7 @@ input:focus ~ .highlight {
 .favorite {
   text-align: center;
   float: right;
-  width: 15%;
+  width: 13%;
 
   img {
     width: 25px;
@@ -348,6 +352,10 @@ input[type='radio']:checked:before {
       height: 30px;
     }
   }
+}
+
+.liked {
+  display: none;
 }
 
 .menu-container-img-left {
