@@ -105,6 +105,14 @@ body {
    text-align: center;
 }
 
+.overlay-effect {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/PhotoBG.jpg);
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+
 input[type='radio'] {
     -webkit-appearance:none;
     width:20px;
