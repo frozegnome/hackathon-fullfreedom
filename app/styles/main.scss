@@ -2,6 +2,8 @@ $icon-font-path: '../fonts/';
 //variables
 $brand-primary: #2196F3;
 $brand-bg: #f5f5f5;
+$brand-blue: #2196F3;
+$brand-white: #fff;
 
 
 // bower:scss
@@ -72,6 +74,14 @@ body {
 .list-grey-panel {
   background-color: brand-bg;
   margin: 12px 5px;
+  border-bottom-width: 17px;
+}
+
+.panel-white {
+   background-color: $brand-white;
+   margin: 0;
+   color: $brand-blue;
+   text-align: center;
 }
 
 .menu-container {
