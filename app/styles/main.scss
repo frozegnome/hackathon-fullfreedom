@@ -1,4 +1,7 @@
 $icon-font-path: '../fonts/';
+//variables
+$brand-primary: #2196F3;
+
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
@@ -11,10 +14,48 @@ $icon-font-path: '../fonts/';
   padding: 0.2em 0;
 }
 
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
 /* Space out content a bit */
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: $brand-primary;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.btn-fill {
+  background-color: white;
+  border: 1px solid white;
+  color: $brand-primary;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.splash-logo {
+  text-align: center;
+  margin-top: 50%;
+}
+
+.splash-btns {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  padding: 0 3%;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
