@@ -33,6 +33,7 @@ body {
   height: auto;
   width: 100%;
   background: $brand-primary;
+  overflow-x: hidden;
 }
 
 .index-bg {
@@ -392,5 +393,29 @@ input[type='radio']:checked:before {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+  }
+}
+
+/*pushy*/
+.pushy {
+  background-color: $brand-blue;
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    border-bottom: 2px solid #6699ff;
+    list-style: none;
+  }
+
+  li:first-of-type {
+    padding-top: 10px;
+    background-color: #1769AA;
+  }
+
+  a {
+    border-bottom: 0px solid #6699ff;
+    color: white;
   }
 }
