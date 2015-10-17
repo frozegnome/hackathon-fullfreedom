@@ -151,6 +151,28 @@ input[type='radio']:checked:before {
   height: 50px;
   padding: 10px;
   text-align: justify;
+  position: relative;
+
+  .menu-container-menu {
+    text-align: center;
+    width: 20%;
+    float: left;
+
+    img {
+      height: 22px;
+      padding: 5px 55px 0 1px;
+    }
+  }
+
+  .menu-container-logo {
+    text-align: center;
+    width: 60%;
+    float: left;
+
+    img {
+      height: 30px;
+    }
+  }
 }
 
 .menu-container-img-left {
