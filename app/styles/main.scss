@@ -72,14 +72,14 @@ body {
   margin: 12px 5px;
 }
 
-.list-grey-panel {
-  background-color: brand-bg;
+.list-white-panel {
+  background-color: $brand-white;
   margin: 0 5px;
   border-bottom-width: 17px;
 }
 
 .list-group-item {
-  background-color: $brand-bg;
+  background-color: $brand-white;
   padding-bottom: 40px;
 }
 
@@ -89,14 +89,6 @@ body {
    margin: 0;
    color: $brand-blue;
    text-align: center;
-}
-
-.panel-grey {
-   background-color: $brand-bg;
-   margin: 0;
-   color: $brand-black;
-   text-align: center;
-   border: solid 0px;
 }
 
 input[type='radio'] {
@@ -122,6 +114,14 @@ input[type='radio']:before {
 input[type='radio']:checked:before {
     background: $brand-blue;
 }
+
+.container-grey {
+  background-color: $brand-bg;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 100%;
+}
+
 
 .menu-container {
   background-color: $brand-primary;
